@@ -1,0 +1,78 @@
+header{
+background-color: #5E9230;
+	font-family: DOSfont;
+	text-align: center;
+	color: red;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+
+}
+
+footer{
+background-color: #5E9230;
+height: 70px;
+font-family: Robotron Dot Matrix;
+text-align: center;
+color: red;
+text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+body{
+
+background-image: url('https://steamuserimages-a.akamaihd.net/ugc/940586530515504757/CDDE77CB810474E1C07B945E40AE4713141AFD76/');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.block1{
+
+	width: 200px; 
+    background: #ccc;
+    padding: 5px;
+    padding-right: 20px; 
+    border: solid 1px black; 
+    float: left;
+}
+.block2{
+	width: 200px; 
+    background: #fc0; 
+    padding: 5px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative; 
+    top: 40px; 
+    left: -70px;
+}
+.text1{
+
+text-align: center;
+color: #FFF600;
+}
+.text2{
+
+	text-align: center;
+	color: #18FF00;
+}
+.content{
+background-color: #5E9230;
+height: 1100px;
+text-align: center;
+font-family: DOSfont;
+color: red;
+
+width: 80%;
+margin: 0 auto;
+
+}
+.post{
+	display: flex;
+}
+.box{
+	margin: 15px;
+	padding: 10px;
+	flex-grow: 1;
+	background-color: #FFF600;
+	border-radius: 10px; 
+}
+img{
+max-width: 350px;
+float: left;
+}
